@@ -263,7 +263,7 @@ console.log(Hr);
     background(255-val);
     textAlign(CENTER);
     push();
-    translate(width/4,50); //the Xposition may need to adjust during setup
+    translate(windowWidth/4,50); //the Xposition may need to adjust during setup
     scale(f,1);
   text('Hello, How are you today?',0,0);
   pop();
@@ -272,7 +272,7 @@ console.log(Hr);
     background(255-val);
     video.remove(); 
     push();
-    translate(width/4,50); //the Xposition may need to adjust during setup
+    translate(windowWidth/4,50); //the Xposition may need to adjust during setup
     scale(f,1);
     text('Put your finger onto the sensor and press it hard', 0, 0);
     pop();
@@ -280,7 +280,7 @@ console.log(Hr);
   else{
     background(255,255,255);
     push();
-    translate(width/4,50); //the Xposition may need to adjust during setup
+    translate(windowWidth/4,50); //the Xposition may need to adjust during setup
     scale(f,1);
     text('and let the journey begins...',0,0);
     pop();
@@ -298,7 +298,7 @@ console.log(Hr);
   var vol = amp.getLevel();
   volhistory.push (vol);
   push();
-  translate(width/2,height/2);
+  translate(windowWidth/2,windowHeight/2);
   stroke(bass*1.2,mid+50*1.5,Hr);
   strokeWeight(2);
   shadow();
@@ -320,15 +320,15 @@ console.log(Hr);
   translate(0,0);
   noStroke();
   fill(0);
-  rect(0,0,width,height);
+  rect(0,0,windowWidth,windowHeight);
   fill(255-val);
   push();
-    translate(width/4,50); //the Xposition may need to adjust during setup
+    translate(windowWidth/4,50); //the Xposition may need to adjust during setup
     scale(f,1);
   text('Look here...',0,0);
   pop();
   push();
-    translate(width/4,height/2); //the Xposition may need to adjust during setup
+    translate(windowWidth/4,windowHeight/2); //the Xposition may need to adjust during setup
     scale(f,1);
     text('Thank you for spending time with yourself.',0,0);
   pop();
