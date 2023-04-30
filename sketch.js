@@ -328,7 +328,7 @@ console.log(Hr);
   text('Look here...',0,0);
   pop();
   push();
-    translate(windowWidth/4,windowHeight/2); //the Xposition may need to adjust during setup
+    translate(windowWidth/2,windowHeight/2); //the Xposition may need to adjust during setup
     scale(f,1);
     text('Thank you for spending time with yourself.',0,0);
   pop();
