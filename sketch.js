@@ -245,7 +245,7 @@ function drawExpressions(detections){
 
 
 function draw() {
-  f = -1 //Default to be mirror image for text [ you may set it to 1 if not using Pepper Ghost techniques]
+  // f = -1 *This is commented out for online REPO //Default to be mirror image for text [ you may set it to 1 if not using Pepper Ghost techniques]
   video.hide(); // hiding the video
 // Slider and Checkbox Value
 val = slider.value();// You may input the value after testing the setup
@@ -444,7 +444,7 @@ if (checkbox.checked()) {
 
   f = 1;
 } else {
-  f = -1; // default to be mirro image (for this set up)
+  f = -1; // default to be mirror image (for installation)
 }
 }
 
