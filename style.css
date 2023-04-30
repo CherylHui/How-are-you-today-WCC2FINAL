@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+}
+
+main{
+  width:100%;
+  max-width:1400px; /* means it won't be larger than 1200px on larger screens */
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 3%;
+
+}
